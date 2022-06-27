@@ -1,0 +1,101 @@
+#header{
+    margin: 0px;
+    display: flex;
+}
+#container{
+    display: flex;
+    border:solid grey 10px;
+    width: auto;
+    height: auto;
+}
+#flexHead{
+    margin-top: 0px;
+    color: aliceblue;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.listButton{
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+gap: 15px;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    text-align: center; */
+}
+button{
+    border:solid 3px black;
+    border-radius: 15px;
+    color: rgb(203, 255, 255);
+    background-color: rgb(55, 159, 251);
+}
+
+.boxRight{
+    display: flex;
+    justify-content: flex-end;
+    height: 120px;
+}
+.boxCenter{
+    display: flex;
+    height: 120px;
+}
+.boxLeft{
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+}
+
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+    border:red solid 2px;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    border:red solid 2px;
+    width: auto;
+    height: auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+/*-------------CRAFT-------------------------*/
+.case{
+    list-style: none;
+    border:solid 2px black;
+}
+#rowCase{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 50px;
+}
+#CraftResult{
+    display: flex;
+}
+#bigCenter{
+    height: 360px;
+}
+td{
+    height: 50px;
+    width: 50px;
+    border:solid 2px black;
+    background-color: rgb(218, 218, 218);
+}
